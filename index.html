@@ -1,1 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <title>Portfolio</title>    
+    <style>
+        body{
+            background-image: url(Background_image1.jpg);
+        }
+        nav.nav1{
+            height: 50px;
+            text-align: end;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 50px;
+            margin-right: 30px;
+        }
+        nav.nav1 a{
+            display: flex;
+            color: white;
+            float: right;
+            padding: 20px;
+            font-size: large;
+            font-style: oblique 45deg;
+            font-weight: bold;
+            text-decoration: none;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        nav.nav1 a:hover{
+            color:rgb(136, 139, 53);
+        }
+        div{
+            padding: 50px;
+            border: 10px solid rgb(227, 228, 216);
+            border-width: 10px;
+            width: 75%;
+            margin-left: 130px;
+            margin-top: 120px;
+            color: white;
+            text-align: left;
+            background-image: linear-gradient(45deg, rgb(246, 187, 9),black);
+        
+        }
+        #photo{
+            float:right;
+            margin-top: 75px;
+            margin-right: 50px;
+            width: 300px;
+            box-shadow: 10px, 10px, black;
+        }
+        h1{
+            font-family:'Dancing Script', 'Arial Narrow', Arial, sans-serif ;
+            font-size:75px;
+            text-align: center;
+            margin-top: 15px;
+        }
+        p{
+            font-family:'Dancing Script', 'Arial Narrow', Arial, sans-serif ;
+            font-size: 30px;
+        }
+        .icons{
+            height:25px;
+        }
+        
+        @media screen and (min-width: 1100px) and (max-width: 1320px){
+            div{
+            padding: 40px;
+            border: 8px solid rgb(227, 228, 216);
+            width: 75%;
+            margin-left: 100px;
+            margin-top: 100px;
+            }
+            #photo{
+            margin-top: 75px;
+            margin-right: 50px;
+            margin-left: 5px;
+            width: 275px;
+            }
+        }
+        
+        @media screen and (min-width: 1000px) and (max-width: 1100px) {
+            div{
+            padding: 30px;
+            border: 7px solid rgb(227, 228, 216);
+            width: 75%;
+            margin-left: 80px;
+            margin-top: 80px;
+            }
+            #photo{
+            margin-top: 120px;
+            margin-right: 35px;
+            margin-left: 5px;
+            width: 250px;
+            }
+        }
+        
+        @media screen and (min-width: 800px) and (max-width: 1000px ){
+            body{
+            background-image: url(Background_image1.jpg);
+            }
+            div{
+            padding: 20px;
+            border: 5px solid rgb(227, 228, 216);
+            width: 75%;
+            margin-left: 70px;
+            margin-top: 70px;
+            }
+            #photo{
+            margin-top: 100px;
+            margin-right: 30px;
+            margin-left: 5px;
+            width: 200px;
+            }
+            h1{
+            font-size:60px;
+            margin-top: 10px;
+            }
+            p{
+            font-size: 27px;
+            }
+        }
+        
+        @media screen and (min-width: 600px) and (max-width: 800px) {
+            div{
+            padding: 18px;
+            border: 3px solid rgb(227, 228, 216);
+            width: 75%;
+            margin-left: 65px;
+            margin-top: 60px;
+            }
+            #photo{
+            margin-top: 30px;
+            margin-right: 25px;
+            margin-left: 5px;
+            margin-bottom: 20px;
+            width: 180px;
+            }
+            h1{
+            font-size:60px;
+            margin-top: 50px;
+            }
+            p{
+            font-size: 27px;
+            }
+            .rest{
+                clear: right;
+            }
+        }
+        
+        @media screen and (min-width:500px) and (max-width:600px) {
+            div{
+            padding: 17px;
+            border: 3px solid rgb(227, 228, 216);
+            width: 75%;
+            margin-left: 50px;
+            margin-top: 50px;
+            }
+            #photo{
+            float: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;
+            margin-bottom: 20px;
+            width: 180px;
+            }
+            h1{
+            font-size:60px;
+            margin-top: 50px;
+            }
+            p{
+            font-size: 25px;
+            }
+            .cleared{
+                clear: right;
+            }
+        }
+        
+        @media screen and (max-width: 500px){
+            div{
+            padding: 17px;
+            border: 2px solid rgb(227, 228, 216);
+            width: 75%;
+            margin-left: 30px;
+            margin-top: 40px;
+            }
+            #photo{
+            float: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;
+            margin-bottom: 20px;
+            width: 150px;
+            }
+            h1{
+            font-size:50px;
+            margin-top: 40px;
+            }
+            p{
+            font-size: 23px;
+            }
+            .cleared{
+                clear: right;
+            }
+            
+        }
+       </style> 
+    
+    
+    
+</head>
+<body>
+    <nav class="nav1"> 
+        <a href="project.html">Projects</a>
+        <a href="about_me.html">About</a>
+    </nav>
+    <div>
+    <img id="photo" src="my_photo.jpeg" alt="">
+    <h1 class="cleared">Hello, I'm Sejal</h1>
+    <p class="rest">I am currently enjoying my second year at IIT Delhi. Lately, I've been diving headfirst into web development, and I'm really excited about how much I've learned already. Right now, I'm focusing on front-end development, but I'm eager to start exploring backend too.</p>
+    
+    <p>
+    Aside from coding, I've also got a good handle on C and C++. Beyond the tech stuff, I'm a huge football fan—I've played in pretty much every campus competition. When I'm not coding or on the field, I love getting lost in a good book or strumming away on my guitar.</p>
 
+    <nav class="nav2">
+    <a href="https://www.instagram.com/sejal.2706?igsh=MTlmdWRwOGgzeWR2bQ%3D%3D&utm_source=qr"><img class="icons" src="instagram-icon_1057-2227.jpg.avif" alt=""></a>
+    <a href="https://www.linkedin.com/in/sejal-057153310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img class="icons" src="round-linkedin-logo-isolated-white-background_469489-985.jpg.avif" alt=""></a>
+    <a href="https://github.com/sejal1405"><img class="icons" src="GitHub-Mark-ea2971cee799.png" alt=""></a>
+    </nav>
+    
+    
+
+    </div>
+
+
+</body>
+</html>
